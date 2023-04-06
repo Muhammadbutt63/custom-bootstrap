@@ -1,0 +1,183 @@
+.navbar{
+    background-color: red;
+    padding: 0 8%;
+    
+}
+
+.nav-item{
+    padding-left: 30px;
+    
+}
+
+.nav-link{
+    font-weight: 600;
+    color: black;
+}
+
+#searchbox{
+background-color: yellow;
+border: 0;
+position: relative;
+left: 47px;
+box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.211);
+}
+
+#searchbox::placeholder{
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    
+}
+
+
+#button{
+position: relative;
+z-index: 99;
+background-color: transparent;
+border: 0;
+}
+
+#img1 img{
+    padding-top: 40px;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px){
+
+#searchform{
+    margin-bottom: 30px;
+    margin-top: 20px;
+    position: relative;
+    left: -20px;
+}
+
+}
+
+@media only screen and (max-width: 500px){
+.navbar{
+    padding: 0;
+}
+#img5{
+    margin-top: -30px;
+}
+
+#service-text h1{
+    margin-top: -30px;
+}
+
+}
+
+@media only screen and (max-width: 990px){
+    #searchform{
+        margin-bottom: 30px;
+        margin-top: 20px;
+        position: relative;
+        left: -20px;
+    }
+}
+
+#banner{
+    background-color: brown;
+    padding-bottom: 20px;
+}
+
+#text1 h1{
+    color: white;
+    font-size: 70px;
+    margin-top: 60px;
+    text-shadow: 5px 5px black;
+}
+
+#text1 p{
+    color: white; 
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    text-shadow: 5px 5px 5px  black;
+}
+
+#btn1{
+    background-color: yellow;
+    border: 2px solid black;
+    font-weight: 600;
+    margin-top: 15px;
+}
+
+#btn2{
+    border: 1px solid white;
+    font-weight: 600;
+    color: white;
+    margin-top: 15px;
+    margin-left: 12px;
+}
+
+@media only screen and (max-width: 1300px){
+    #text1 h1{
+        font-size: 50px;
+        margin-top: 30px;
+
+    }
+
+    #img5{
+        padding-top: 35px;
+        height: 330px;
+    }
+
+    #img1 img{
+        padding-top: 45px;
+        
+    }
+
+}
+
+@media only screen and (max-width: 900px){
+    #text1 h1{
+        font-size: 40px;
+        margin-top: 30px;
+
+    }
+
+    #img5{
+        height: 270px;
+    }
+
+    #btn4{
+        color: black;
+        background-color: yellow;
+        border: 2px solid black;
+        font-weight: 200;
+        width: 100px;
+        font-size: 12px;
+    }
+
+    #img1 img{
+        padding-top: 70px;
+    }
+    #service-text h1{
+        font-size: 25px;
+    }
+    #service-text p{
+        font-size: 12px;
+        
+    }
+}
+
+@media only screen and (max-width: 330px){
+    #text1 h1{
+        font-size: 30px;
+        margin-top: 30px;
+
+    }
+}
+
+#service-text{
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+#btn4{
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+    font-weight: 600;
+}
